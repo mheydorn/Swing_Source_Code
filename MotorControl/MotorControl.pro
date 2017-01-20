@@ -3,7 +3,9 @@
 # Project created by QtCreator 2015-05-05T16:04:27
 #
 #-------------------------------------------------
-include(/home/matthew/MotorControl/qextserialport/src/qextserialport.pri)
+
+#FIXME: You have to set this manually each time you move the project directory
+include(/home/mheydorn/sandbox/Swing_Source_Code/MotorControl/qextserialport/src/qextserialport.pri)
 DEFINES += QEXTSERIALPORT_USING_SHARED
 QT       += core gui
 
