@@ -131,7 +131,7 @@ void MainWindow::on_pushButton_clicked()
         }
 
 
-       char data[Command.length()] = {};
+       char data[Command.length()];
         for(int i = 0; i < Command.length(); i++){
 
             data[i] = Command.at(i).toLatin1();
@@ -232,7 +232,7 @@ void MainWindow::on_pushButton_2_clicked()
            ui->textBrowser->setText(CommandSet);
         }
 
-       char data[Command.length()] = {};
+       char data[Command.length()];
         for(int i = 0; i < Command.length(); i++){
             data[i] = Command.at(i).toLatin1();
         }
@@ -305,7 +305,7 @@ void MainWindow::on_pushButton_4_clicked()
 
     }
 
-    char data[CommandSet.length()] = {};
+    char data[CommandSet.length()];
      for(int i = 0; i < CommandSet.length(); i++){
 
          data[i] = CommandSet.at(i).toLatin1();
