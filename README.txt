@@ -5,7 +5,9 @@ Instructions:
 
 	2. Install qt creator
 	
-	3. Open MotorControl.pro with qt creator and press play
+	3. Plug the sender into a usb port
+	
+	4. Open MotorControl.pro with qt creator and press play
 
 
 Special Notes:
