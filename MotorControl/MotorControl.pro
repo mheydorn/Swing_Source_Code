@@ -4,8 +4,7 @@
 #
 #-------------------------------------------------
 
-#FIXME: You have to set this manually each time you move the project directory
-include(/home/mheydorn/sandbox/Swing_Source_Code/MotorControl/qextserialport/src/qextserialport.pri)
+include(qextserialport/src/qextserialport.pri)
 DEFINES += QEXTSERIALPORT_USING_SHARED
 QT       += core gui
 
